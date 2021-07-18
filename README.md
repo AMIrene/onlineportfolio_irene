@@ -10,6 +10,9 @@ The portfolio provides links to my email address, Github repo, and my LinkedIn p
 2. CSS
 3. [Bulma CSS Framework](https://bulma.io/)
 
+# Deployed page
+![Screenshot](assets/images/screencapture-amirene-github-io-onlineportfolio-irene-2021-07-18-17_09_28.png)
+[Deployed Page](https://amirene.github.io/onlineportfolio_irene/)
 
 # Licenses
 

@@ -15,10 +15,12 @@
     font-weight: bold;
        
 }
-
+.navbar {
+padding: 20px;
+}
 .navbar-item {
     color: #2b6777;
-    font-size: large;
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -31,9 +33,6 @@ margin-right: 5px;
 
 }
 
-.contentbox {
-border-right: 3px solid #2b6777;    
-}
 
 .footer {
     background-color: #2b6777;

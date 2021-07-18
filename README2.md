@@ -1,52 +1,16 @@
-## Homework Requirements
+# Project Portfolio
 
-* Updated portfolio featuring Project 1 and two exemplary homework assignments.
+My online portfolio built using HTML and CSS, with layout setup using Bulma CSS framework. This is based on the first iteration of the portfolio design, developed in Week 3 of the course. The online portfolio is mobile-responsive, and showcases two homework assignments - the code quiz app and the password generator app, as well as my first group project assignment - a recipe app "Chop 'n' Change". It also provides screenshots, links to the deployed pages and their respective Github repos. 
 
-* Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+The portfolio provides links to my email address, Github repo, and my LinkedIn profile as well as a downloadable resume. 
 
-* Updated resume
+# Technology used
 
-* Updated LinkedIn profile
+1. HTML
+2. CSS
+3. [Bulma CSS Framework](https://bulma.io/)
 
-## Grading
 
-| Requirement      | Weight |
-| ---------------- | ------ |
-| Portfolio        | 40%    |
-| GitHub Profile   | 40%    |
-| Resume           | 10%    |
-| LinkedIn Profile | 10%    |
+# Licenses
 
-## Instructions
-
-1. [Updated Portfolio](#updated-portfolio)
-
-2. [Updated GitHub Profile](#updated-github-profile)
-
-3. [Updated Resume](#updated-resume)
-
-4. [Updated LinkedIn](#updated-linkedin)
-
-## Updated Portfolio
-
-💁 Need help updating your Portfolio? Check out the [Career Services milestone resources for online presence](https://mycareerspot.org/onlinepresence).
-
-Your updated portfolio should:
-
-1. Display your contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/).
-
-2. Have links to your GitHub profile and LinkedIn profile
-
-3. Have a link to a downloadable PDF of your resume
-
-4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
-
-	* Project title
-
-	* Link to the deployed version
-
-	* Link to the GitHub repository
-
-	* Screenshot of the deployed application
-
-5. Have a polished, mobile-responsive user interface.
+[MIT](https://opensource.org/licenses/mit-license.php)

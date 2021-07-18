@@ -1,0 +1,33 @@
+.hero-image {
+    background-image: url('../images/1.png');
+    height: 400px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+
+  .hero-heading {
+    background-color: white;
+    color: #2b6777;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+       
+}
+
+p {
+color: #2b6777;
+font-size: medium;
+padding-top: 5px;
+padding-right: 5px;
+margin-right: 5px;
+
+}
+
+.contentbox {
+border-right: 3px solid #2b6777;    
+}
+
+.hide {
+    visibility: hidden;
+    

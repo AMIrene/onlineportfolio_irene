@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
 
@@ -26,12 +27,12 @@
 
         <div id="navbarBasicExample" class="navbar-menu is-active">
             <div class="navbar-end">
-                <div class="navbar-item">
-                    <a href="#aboutme" class="navbar-item">About me</a>
-                    <a href="#work" class="navbar-item">Work</a></li>
-                    <a href="#contact" class="navbar-item">Contact</a></li>
-                    <a href="https://github.com/AMIrene" class="navbar-item" target="_blank">Resume</a>
-                </div>
+
+                <a href="#aboutme" class="navbar-item">About me</a>
+                <a href="#work" class="navbar-item">Work</a></li>
+                <a href="#contact" class="navbar-item">Contact</a></li>
+                <a href="https://github.com/AMIrene" class="navbar-item" target="_blank">Resume</a>
+
             </div>
         </div>
     </nav>
@@ -45,10 +46,10 @@
     <div class="columns is-mobile is-gapless">
         <div class="column is-2 is-two-thirds-mobile">
             <div class="content pr-5 pt-5 is-pulled-right">
-                <div class = "contentbox">
-                <h2 class="is-size-5-mobile">About me</h2>
-                <img class="avatar" src="assets/images/image_avatar.png" alt="girl with laptop" width="140px">
-            </div>
+                <div class="contentbox">
+                    <h2 class="is-size-5-mobile sidebarTitle">About me</h2>
+                    <img class="avatar" src="assets/images/image_avatar.png" alt="girl with laptop" width="140px">
+                </div>
             </div>
         </div>
         <div class="column">
@@ -66,22 +67,49 @@
             </div>
         </div>
     </div>
-<!--Work-->
-   
-<div class="columns is-mobile is-gapless">
-    <div class="column is-2 is-two-thirds-mobile">
-        <div class="content pr-5 pt-5 is-pulled-right">
-            <div class = "contentbox">
-            <h2 class="is-size-5-mobile has-text-right pr-4">Work</h2>
-            <img class="avatar hide" src="assets/images/image_avatar.png" alt="girl with laptop" width="140px">
+    <!--Work-->
+
+    <div class="columns is-mobile is-gapless">
+        <div class="column is-2 is-two-thirds-mobile">
+            <div class="content pr-5 pt-5 ">
+                <div class="contentbox">
+                    <h2 class="is-size-5-mobile is-pulled-right pr-4">Work</h2>
+                    <img class="avatar hide" src="assets/images/image_avatar.png" alt="girl with laptop" width="140px">
+                </div>
+            </div>
         </div>
+        <div class="column">
+            <div class="content pt-5 pr-5">
+                <div class="card">
+                    <header class="card-header">
+                        <a href="https://amirene.github.io/code_quiz/" class="title is-pulled-right pr-4 pl-4 pt-4">Code
+                            Quiz</a>
+
+                        <a href="https://github.com/AMIrene/code_quiz"
+                            class="title is-pulled-right pr-4 pl-4 pt-4"><span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span></a>
+                    </header>
+                    <div class="card-image">
+                    <figure class="image is-5by3">
+                        <img src="./assets/images/" alt="Placeholder image">
+                    </figure>
+                </div>
+            </div>
+
         </div>
     </div>
-    <div class="column">
-        
     </div>
-</div>
- 
+
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p class="footer-text">Irene Adam-Manik</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>

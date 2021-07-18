@@ -2,167 +2,198 @@
 <html>
 
 <head>
-
-    <title>Irene Adam Manik | Web Design Solutions</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
 
 <body>
-    <!-- This is the mobile responsive header. -->
-    <header id="header" class="header_container">
-        <div class="name_chip">
-            <h1>Irene Adam Manik</h1>
+    <!--Navbar-->
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <h1 class="navbar-item">Irene Adam-Manik</h1>
+         
         </div>
 
-        <div class="expand">
-        </div>
+        <div id="navbarBasicExample" class="navbar-menu is-active">
+            <div class="navbar-end">
 
-        <!-- This is the mobile responsive nav bar. -->
-        <nav class="navbar">
-            <ul class="nav_links">
-                <li><a href="#aboutme">About me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://github.com/AMIrene" target="_blank">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
+                <a href="#aboutme" class="navbar-item">About me</a>
+                <a href="#work" class="navbar-item">Work</a></li>
+                <a href="#contact" class="navbar-item">Contact</a></li>
+                <a href="https://drive.google.com/file/d/1sl6D5473-1yDTCuW6-lX10XMh0R80kak/view?usp=sharing" class="navbar-item" target="_blank">Resume</a>
 
-    <!-- Hero image -->
-    <div class="hero">
-        <!-- background image to be placed here -->
-        <div class="hero-header-box">
-            <h2>Design solutions for all</h2>
-        </div>
-    </div>
-
-
-    <!-- Body -->
-    <main>
-
-        <!-- About me  -->
-        <section id="aboutme" class="section_container">
-            <div class="section_header_container">
-                <h2>About me</h2>
-                <img class="avatar" src="assets/images/image_avatar.png" alt="girl with laptop" width="140px">
             </div>
+        </div>
+    </nav>
 
-            <div class="aboutme_content">
+    <section class="section hero-image">
+        <h1 class="hero-heading is-pulled-right">Design solutions for all</h1>
+    </section>
+
+    <!--Portfolio - about me-->
+
+    <div class="columns is-mobile is-gapless">
+        <div class="column is-2">
+            <div class="content pr-5 pt-5 is-pulled-right">
+                
+                    <h2 id="aboutme" class="is-size-5-mobile" style = "color: #2b6777">About me</h2>
+                    <img class="avatar" src="assets/images/image_avatar.png" alt="girl with laptop" width="140px">
+                
+            </div>
+        </div>
+        <div class="column">
+            <div class="content pt-5 pr-5 is-pulled-right">
                 <p>Hey there, my name is Irene. I work as a project coordinator for a social research company in the
                     monitoring and evaluation space. I am new to coding and learning HTML, CSS and JavaScript. The
-                    thrill
-                    of discovery when you figure out a solution to a coding problem keeps me motivated. However, what I
+                    thrill of discovery when you figure out a solution to a coding problem keeps me motivated. However,
+                    what I
                     truly love is the design process and the creative aspect.
 
                     My first foray into web development and UX/UI design was in my previous role, where I coordinated
                     the upgrade of a data visualisation tool for a major census in Australia. My aim now is to be able
                     to apply the skills gained through the Monash Bootcamp course and develop user-driven apps to
-                    support
-                    data collection and create engaging data visualisations.</p>
+                    support data collection and create engaging data visualisations.</p>
             </div>
+        </div>
+    </div>
+    <!--Work-->
 
-        </section>
-        <!-- Work -->
-
-        <section id="work" class="section_container">
-            <div class="section_header_container">
-                <h2>Work</h2>
-            </div>
-
-            <div class="work_content_container_aqua expand">
-
-                <div class="work_card_purple surf-run work_border">
-                    <div class="surf-card-title-box">
-                        <h3>Surf Run</h3>
-                    </div>
-
-                    <div class="surf-card-subtitle-box">
-                        <h3>MERN Stack</h3>
-                    </div>
-
+    <div class="columns is-mobile is-gapless">
+        <div class="column is-2">
+            <div class="content pr-5 pt-5 ">
+                <div class="">
+                    <h2 id ="work" class="has-text-right is-size-5-mobile" style = "color: #2b6777">Work</h2>
+                   
                 </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content pt-5 pr-5">
+                <div class="card">
+                    <header class="card-header">
+                        <a href="https://amirene.github.io/code_quiz/" 
+                            class="title is-pulled-right pr-4 pl-4 pt-4 is-size-6-mobile" target="_blank">Code
+                            Quiz</a>
 
-                <div class="work_content_row_red">
-                    <div class="work_card_smaller_purple led-wall work_border">
-                        <div class="work-card-title-box">
-                            <h3>LED Wall</h3>
-                        </div>
-
-                        <div class="work-card-subtitle-box">
-                            <h3>Node/IoT</h3>
-                        </div>
-
-
-                    </div>
-
-                    <div class="work_card_smaller_purple calculator work_border">
-                        <div class="work-card-title-box">
-                            <h3>Calculator</h3>
-                        </div>
-
-                        <div class="work-card-subtitle-box">
-                            <h3>React Javascript</h3>
-                        </div>
-    
+                        <a href="https://github.com/AMIrene/code_quiz" 
+                            class="title is-pulled-right pr-4 pl-4 pt-4" target="_blank"><span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span></a>
+                    </header>
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="./assets/images/codequiz.png" alt="Screenshot of app on browser view">
+                        </figure>
                     </div>
                 </div>
 
-                <div class="work_content_row_red">
-                    <div class="work_card_smaller_purple pastel-puzzles work_border">
-                        <div class="work-card-title-box">
-                            <h3>Pastel Puzzles</h3>
-                        </div>
+            </div>
+        </div>
+    </div>
+    <div class="columns is-mobile is-gapless">
+        <div class="column is-2 is-two-thirds-mobile">
+            <div class="content pr-5 pt-5 ">
+                
+                    <h2 class="is-size-5-mobile has-text-right"></h2>
+              
+            </div>
+        </div>
+        <div class="column">
+            <div class="content pt-5 pr-5">
+                <div class="card">
+                    <header class="card-header">
+                        <a href="https://amirene.github.io/password_generator/" 
+                            class="title is-pulled-right pr-4 pl-4 pt-4 is-size-6-mobile" target="_blank">Password Generator</a>
 
-                        <div class="work-card-subtitle-box">
-                            <h3>MERN Stack</h3>
-                        </div>
-    
-
-                    </div>
-                    <div class="work_card_smaller_purple run-buddy work_border">
-                        <div class="work-card-title-box">
-                            <h3>Run Buddy</h3>
-                        </div>
-
-                        <div class="work-card-subtitle-box">
-                            <h3>HTML/CSS</h3>
-                        </div>
+                        <a href="https://github.com/AMIrene/password_generator"  
+                            class="title is-pulled-right pr-4 pl-4 pt-4" target="_blank"><span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span></a>
+                    </header>
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="./assets/images/screencapture-amirene-github-io-password-generator-2021-07-18-13_32_11.png"
+                                alt="Screenshot of app on browser view">
+                        </figure>
                     </div>
                 </div>
-            </div>
-
-        </section>
-
-        <!-- Contact me -->
-
-        <section id="contact" class="section_container">
-            <div class="section_header_container">
-                <h2>Contact</h2>
-            </div>
-
-            <div class="contact_links">
-
-                <h3><a href="tel:5555555555">Mobile</a></h3>
-                <h3><a href="mailto: designs_iam@gmail.com">Email</a></h3>
-                <h3><a href="https://github.com/AMIrene" target="_blank">Github</a></h3>
-                <h3><a href="https://twitter.com/?lang=en" target="_blank">Twitter</a></h3>
-                <h3><a href="https://www.spotify.com/au/" target="_blank">Spotify</a></h3>
 
             </div>
+        </div>
+        <div class="column">
+            <div class="content pt-5 pr-5">
+                <div class="card">
+                    <header class="card-header">
+                        <a href="https://group3-recipe-search.herokuapp.com/" 
+                            class="title is-pulled-right pr-4 pl-4 pt-4 is-size-6-mobile" target="_blank">Chop 'n' Change</a>
 
-        </section>
+                        <a href="https://github.com/raven-bootcamp/group3-recipe-search" 
+                            class="title is-pulled-right pr-4 pl-4 pt-4" target="_blank"><span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span></a>
+                    </header>
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="./assets/images/screencapture-group3-recipe-search-herokuapp-2021-07-18-13_35_20.png"
+                                alt="Screenshot of app on browser view">
+                        </figure>
+                    </div>
+                </div>
 
-    </main>
+            </div>
+        </div>
+    </div>
 
-    <!-- footer - decoration only -->
-    <footer>
-        <div> </div>
+    <!--Contact details container-->
+    <div class="columns is-mobile is-gapless">
+        <div class="column is-2 is-two-thirds-mobile">
+            <div class="content pr-5 pt-5">
+                
+                    <h2 id="contact" class="is-size-5-mobile has-text-right" style = "color: #2b6777">Contact</h2>
+               
+            </div>
+        </div>
+        <div class="column">
+            <div class="content pt-5 pr-5">
+                <div class="tabs is-fullwidth">
+                    <ul>
+                        <li>
+                            
+                            <a href = "mailto: irene.webdev@gmail.com">
+                                <span class="icon is-small"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                                <span>Email</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://github.com/AMIrene" target="_blank">
+                                <span class="icon is-small"><i class="fab fa-github" aria-hidden="true"></i></span>
+                                <span>Github</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.linkedin.com/in/irene-adam-manik-978a3750" target="_blank">
+                                <span class="icon is-small"><i class="fab fa-linkedin" aria-hidden="true"></i></span>
+                                <span>LinkedIn</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p class="footer-text">Irene Adam-Manik</p>
+        </div>
     </footer>
-
 
 </body>
 

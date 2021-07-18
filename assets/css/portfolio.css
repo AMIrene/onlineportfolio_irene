@@ -49,6 +49,18 @@ border-right: 3px solid #2b6777;
 
 }
 
-.avatar {
+.hide {
     visibility: hidden;
+}
+.title {
+    
+    color:white;
+}
+
+.card-header {
+    background-color: #2b6777;
+}
+
+.contactDetails {
+    color: #2b6777;
 }
